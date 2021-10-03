@@ -1,0 +1,4 @@
+-r common.txt
+pytest>=6.2.4
+pytest-cov>=2.12.1
+pycodestyle>=2.7.0
