@@ -24,11 +24,13 @@ $ pip install git+https://github.com/nelsond/sirah-matisse-commander
 from sirah_matisse_commander import SirahMatisseCommanderDevice
 
 device = SirahMatisseCommanderDevice('localhost', 30000)
+device.connect()
 
 device.server_alive # => True
 device.diode_power_dc # => 0.1
 
 device.piezo_ref_cell = 0.3
+device.piezo_ref_cell # => 0.3
 
 device.disconnect()
 ```
