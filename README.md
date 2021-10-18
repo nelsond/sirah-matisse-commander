@@ -1,8 +1,10 @@
 # Sirah Matisse Commander
 
-**NOTE: This module only works with the Matisse Commander TCP server.**
+**NOTE: This module only works with the Matisse Commander TCP server, which can be enabled in the menu `File > Settings`.**
 
-Minimal wrapper for the Sirah Matisse Commander. At the moment, the module only allows to read and write the most relevant values from a Sirah Matisse laser. In addition, arbitrary raw commands (see Matisse Commander manual for details) can be sent to the laser.
+This repository contains a simple Python client for the Sirah Matisse Commander TCP server. At the moment, the module only allows to read and write the most relevant values from a Sirah Matisse laser. In addition, arbitrary raw commands (see Matisse Commander manual for details) can be sent to the laser.
+
+> Please do note that this client is not officially supported by Sirah Lasertechnik GmbH. Visit [https://www.sirah.com](www.sirah.com) for general support with your laser system.
 
 ## Requirements
 
@@ -13,7 +15,7 @@ This module requires Python >= 3.6 and does not have any other dependencies.
 Install with pip
 
 ```shell
-$ pip install git+https://gitlab.physik.uni-muenchen.de/sqm/devices/sirah_matisse_commander.git
+$ pip install git+https://github.com/nelsond/sirah_matisse_commander
 ```
 
 ## Example usage
